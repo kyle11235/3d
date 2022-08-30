@@ -46,8 +46,17 @@
                 
         4. animation
 
-                click animation workspace, object mode, click i to insert keyframe
-                go to frame 100, move/rotate/scale, click i, play it
+                - click animation workspace
+                1. pose mode / select bone
+                2. frame 0, insert keyframe (click i)
+                3. frame 100, change bone, then insert keyframe
+
+                ![image info](./images/01.png)
+
+                - speed
+                1. output properties, frame rate
+                2. output properties, time stretching
+                3. select all related keyframes, zoom them together
 
                 - 2d vs 3d
                 2D (‘frame by frame’) is very time consuming and methodical, but I would say you progress at a ‘steady pace’. The level of difficulty too will depend on your drawing skills- if you can draw quickly and ‘efficiently’ (getting the form right immediately) you will find it easier.
@@ -58,6 +67,11 @@
 
                 draw 2d > 3d = more dynamic
                 3d > draw 2d = looks rigid
+
+        5. render / export
+
+                output properties, set output folder, file format = ffmpeg, encoding, container = mpeg-4
+                render, render animation, check file in folder
 
 - unity3d
 
